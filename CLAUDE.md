@@ -39,6 +39,14 @@ META_PROFILE=kim-sisbio wsl.exe -d Ubuntu -- bash -c 'source ~/.bashrc && meta -
 | `kim-sisbio` | Sisbio | act_952932413377197 | DrRodrigoKim (379461895880472) |
 | `kim-metodo` | Método | act_3497083207034532 | DrRodrigoKim (379461895880472) |
 
+**Contas extras na mesma BM** (fora da tabela acima, mas acessíveis com o token de um perfil já
+configurado, usando `--ad-account-id` sem trocar de perfil — `meta ads --ad-account-id
+act_XXXXXXXXXXXXXXX <comando>`):
+
+| Conta | ID | Acessível via perfil |
+|---|---|---|
+| CA03_BM02_INL \| LB21 VSL \| Perpétuo | act_1745113480051846 | `bm02-ca01` (BM02 Neto) |
+
 **Wrapper multi-perfil** (`~/.local/bin/meta-env`): carrega automaticamente o `.env.<perfil>` correto.
 
 **Forma canônica de chamar qualquer conta:**
